@@ -9,6 +9,7 @@ Installation
 In order to use this platform repository you must follow a few steps:
 
 - clone [this very git repository](https://github.com/icekernel/example-ops/)
+- Make sure you have updated the submodules: git submodule update --init --recursive
 - install aws cli
 - install the platform’s vault password in `~/.ansible/example-vault
   (`touch ~/.ansible/example-vault` will do for now)
