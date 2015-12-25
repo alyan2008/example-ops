@@ -19,6 +19,7 @@ In order to use this platform repository you must follow a few steps:
   - [vagrant](https://www.vagrantup.com/)
   - virtualbox: `sudo apt-get install virtualbox`
   - ansible: `sudo pip install ansible` (yeah globally)
+  - vagrant plugin: `vagrant plugin install vagrant-vbguest`
 
 
 VMs
