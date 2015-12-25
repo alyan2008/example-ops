@@ -9,6 +9,7 @@ Installation
 In order to use this platform repository you must follow a few steps:
 
 - clone [this very git repository](https://github.com/icekernel/example-ops/)
+- This platform makes use of a few ansible roles that are not shipped with the distribution, they can be installed from ansible galaxy via: `ansible-galaxy install -r requirements.yml`
 - install aws cli
 - install the platform’s vault password in `~/.ansible/example-vault
   (`touch ~/.ansible/example-vault` will do for now)
