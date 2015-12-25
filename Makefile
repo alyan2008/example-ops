@@ -17,7 +17,7 @@ DEV_ENV_SET=ANSIBLE_CONFIG=$(ANSIBLE_VAGRANT_CONFIG)
 all: vagrant site@dev
 
 basebox:
-	cd vagrant/boxcutter/ubuntu && make virtualbox/ubuntu1404 && vagrant box add --name icekernel/trusty64 box/virtualbox/ubuntu1404-nocm-2.0.2.box
+	cd vagrant/boxcutter/ubuntu && make virtualbox/ubuntu1404 && vagrant box add icekernel/trusty64 box/virtualbox/ubuntu1404-nocm-2.0.2.box
 
 vagrant: basebox
 	cd vagrant/dev/ && vagrant up
